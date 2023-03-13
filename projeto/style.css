@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background: rgb(44,51,245);
+    background: linear-gradient(180deg, rgba(44,51,245,1) 34%, rgba(1,0,28,1) 100%);
+}
+
+.titulo{
+    color: #fff;
+}
+
+
+
+h2{
+    font-weight: bold;
+};
+
+.carrosel{
+    width: 100%;
+}
+
+.imagem-carrosel{
+    object-fit: cover;
+    max-width: 100%;
+    height: 55vh;
+}
+
+.img-contato {
+    object-fit: cover;
+    max-width: 100%;
+    height: 45vh;
+}
+
+.mapa-conteudo {
+	overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.mapa-conteudo iframe{
+    height:60%;
+    width:100%;
+    position:absolute;
+    margin: 20px auto;
+}
+
+
+
+
+
+
